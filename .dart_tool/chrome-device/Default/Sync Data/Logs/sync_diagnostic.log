@@ -144,3 +144,214 @@
 2024-09-18T07:41:45.477Z P:4664 T:6148] Commit::PostAndProcessResponse,Process Sessions: Success
 2024-09-18T07:42:18.109Z P:4664 T:6148] Commit::PostAndProcessResponse,Process Sessions: Success
 2024-09-18T07:43:01.089Z P:4664 T:7152] SyncServiceImpl::ResetEngine,Reset engine with reason: 0
+2024-09-18T08:02:35.227Z P:5032 T:8384] SyncServiceImpl::Initialize,SyncState after authenticated was: FeatureCanStart
+2024-09-18T08:02:42.646Z P:5032 T:8384] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-09-18T08:02:42.647Z P:5032 T:8384] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-09-18T08:02:42.647Z P:5032 T:8384] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-09-18T08:02:42.881Z P:5032 T:8384] SyncServiceImpl::TryStartImpl,Try to start sync engine
+2024-09-18T08:02:42.886Z P:5032 T:7084] SyncManagerImpl::ConfigureSyncer,Types to download: Encryption Keys
+2024-09-18T08:02:42.938Z P:5032 T:8384] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-09-18T08:02:42.938Z P:5032 T:8384] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-09-18T08:02:42.938Z P:5032 T:8384] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-09-18T08:02:44.466Z P:5032 T:8384] SyncServiceImpl::OnEngineInitialized,Initialize engine with: Success
+2024-09-18T08:02:44.474Z P:5032 T:8384] ModelLoadManager::Configure,Desired types without errors: Bookmarks, Preferences, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group, Edge Wallet, Encryption Keys and types with errors: Passwords, Autofill Profiles, Autofill
+2024-09-18T08:02:44.475Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Bookmarks: success
+2024-09-18T08:02:44.475Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Bookmarks
+2024-09-18T08:02:44.475Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Preferences
+2024-09-18T08:02:44.475Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Typed URLs
+2024-09-18T08:02:44.475Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Extensions
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Sessions
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Extension settings
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: History Delete Directives
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Device Info
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: User Consents
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Send Tab To Self
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Web Apps
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Collection
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Edge E Drop
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Edge Hub App Usage
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Edge Tab Group
+2024-09-18T08:02:44.477Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Edge Wallet
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Preferences: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Extensions: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Typed URLs: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Extension settings: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load History Delete Directives: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Device Info: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load User Consents: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Send Tab To Self: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Web Apps: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Collection: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Edge Hub App Usage: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Edge Tab Group: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Edge E Drop: success
+2024-09-18T08:02:44.482Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Edge Wallet: success
+2024-09-18T08:02:44.529Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Sessions: success
+2024-09-18T08:02:44.529Z P:5032 T:8384] DataTypeManagerImpl::OnAllDataTypesReadyForConfigure,Start to configure data types
+2024-09-18T08:02:44.529Z P:5032 T:8384] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 4 and next configuring types are: Encryption Keys
+2024-09-18T08:02:44.529Z P:5032 T:8384] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-09-18T08:02:45.299Z P:5032 T:10596] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-09-18T08:02:45.303Z P:5032 T:8384] DataTypeManagerImpl::ConfigurationCompleted,Need reconfigure with failed types: 
+2024-09-18T08:02:45.303Z P:5032 T:8384] ModelLoadManager::Configure,Desired types without errors: Bookmarks, Preferences, Passwords, Autofill Profiles, Autofill, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group, Edge Wallet, Encryption Keys and types with errors: 
+2024-09-18T08:02:45.304Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Passwords
+2024-09-18T08:02:45.304Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Autofill Profiles
+2024-09-18T08:02:45.304Z P:5032 T:8384] ModelLoadManager::LoadDesiredTypes,Loading type: Autofill
+2024-09-18T08:02:45.308Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Autofill Profiles: success
+2024-09-18T08:02:45.309Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Autofill: success
+2024-09-18T08:02:45.310Z P:5032 T:8384] ModelLoadManager::ModelLoadCallback,Load Passwords: success
+2024-09-18T08:02:45.310Z P:5032 T:8384] DataTypeManagerImpl::OnAllDataTypesReadyForConfigure,Start to configure data types
+2024-09-18T08:02:45.310Z P:5032 T:8384] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 4 and next configuring types are: Encryption Keys
+2024-09-18T08:02:45.310Z P:5032 T:8384] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-09-18T08:02:45.310Z P:5032 T:7084] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-09-18T08:02:45.311Z P:5032 T:8384] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 3
+2024-09-18T08:02:45.311Z P:5032 T:8384] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 3 and next configuring types are: Preferences, Passwords, Device Info, Send Tab To Self, Edge E Drop
+2024-09-18T08:02:45.311Z P:5032 T:8384] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: Passwords, Encryption Keys
+2024-09-18T08:02:45.311Z P:5032 T:7084] SyncManagerImpl::ConfigureSyncer,Types to download: Passwords, Encryption Keys
+2024-09-18T08:02:45.986Z P:5032 T:8384] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 2
+2024-09-18T08:02:45.986Z P:5032 T:8384] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 2 and next configuring types are: Bookmarks
+2024-09-18T08:02:45.986Z P:5032 T:8384] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-09-18T08:02:45.986Z P:5032 T:7084] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-09-18T08:02:45.986Z P:5032 T:8384] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 1
+2024-09-18T08:02:45.993Z P:5032 T:8384] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 1 and next configuring types are: Autofill Profiles, Autofill, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, User Consents, Web Apps, Collection, Edge Hub App Usage, Edge Tab Group, Edge Wallet
+2024-09-18T08:02:45.993Z P:5032 T:8384] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-09-18T08:02:45.993Z P:5032 T:7084] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-09-18T08:02:45.993Z P:5032 T:8384] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 0
+2024-09-18T08:02:45.995Z P:5032 T:8384] SyncServiceImpl::OnConfigureDone,Configure DataTypeManager with: Ok
+2024-09-18T08:02:48.244Z P:5032 T:7084] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T08:03:19.394Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T08:15:36.120Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T08:46:08.342Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T08:59:06.307Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:13:05.428Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:20:47.524Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:21:41.229Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:28:01.059Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:28:45.610Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:29:58.999Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:30:49.744Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:31:42.968Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:32:57.297Z P:5032 T:7084] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:33:48.073Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:34:36.036Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:37:14.914Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:39:30.139Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:50:09.634Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:52:35.820Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:53:14.419Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:54:13.189Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T09:54:43.688Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:02:16.143Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:04:10.947Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:13:33.661Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:14:50.530Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:16:38.129Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:17:24.138Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:27:38.858Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:29:36.402Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:31:00.370Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:32:31.098Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:34:44.263Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:36:27.382Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:37:20.759Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:40:07.544Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:41:12.708Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:41:49.869Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:42:29.650Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:57:33.039Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T10:58:52.618Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:02:13.851Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:02:49.607Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:03:51.454Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:04:31.742Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:07:23.592Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:08:26.421Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:10:19.770Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:11:11.650Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:16:45.733Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:19:12.314Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:20:11.046Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:23:16.572Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:23:54.258Z P:5032 T:7084] SyncSchedulerImpl::OnSyncNetworkError,Syncer error: Network error (ERR_SOCKET_NOT_CONNECTED)
+2024-09-18T11:23:54.279Z P:5032 T:7084] Commit::ReportFullCommitFailure,Commit Sessions failed with error: NetworkError
+2024-09-18T11:23:54.333Z P:5032 T:7084] SyncSchedulerImpl::DoNudgeSyncCycleJob,Syncer error: Network error (ERR_SOCKET_NOT_CONNECTED)
+2024-09-18T11:25:09.832Z P:5032 T:7084] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:27:17.287Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:28:44.480Z P:5032 T:10764] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:30:07.597Z P:5032 T:8384] SyncServiceImpl::ResetEngine,Reset engine with reason: 0
+2024-09-18T11:31:45.681Z P:1732 T:9616] SyncServiceImpl::Initialize,SyncState after authenticated was: FeatureCanStart
+2024-09-18T11:31:47.076Z P:1732 T:9616] SyncServiceImpl::TryStartImpl,Try to start sync engine
+2024-09-18T11:31:47.081Z P:1732 T:4176] SyncManagerImpl::ConfigureSyncer,Types to download: Encryption Keys
+2024-09-18T11:31:47.629Z P:1732 T:9616] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-09-18T11:31:47.629Z P:1732 T:9616] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-09-18T11:31:47.629Z P:1732 T:9616] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-09-18T11:31:50.726Z P:1732 T:9616] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-09-18T11:31:50.726Z P:1732 T:9616] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-09-18T11:31:50.726Z P:1732 T:9616] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-09-18T11:31:52.293Z P:1732 T:9616] SyncServiceImpl::OnEngineInitialized,Initialize engine with: Success
+2024-09-18T11:31:52.298Z P:1732 T:9616] ModelLoadManager::Configure,Desired types without errors: Bookmarks, Preferences, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group, Edge Wallet, Encryption Keys and types with errors: Passwords, Autofill Profiles, Autofill
+2024-09-18T11:31:52.299Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Bookmarks: success
+2024-09-18T11:31:52.299Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Bookmarks
+2024-09-18T11:31:52.299Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Preferences
+2024-09-18T11:31:52.299Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Typed URLs
+2024-09-18T11:31:52.299Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Extensions
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Sessions
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Extension settings
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: History Delete Directives
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Device Info
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: User Consents
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Send Tab To Self
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Web Apps
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Collection
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Edge E Drop
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Edge Hub App Usage
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Edge Tab Group
+2024-09-18T11:31:52.301Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Edge Wallet
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Preferences: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Typed URLs: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Extensions: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load History Delete Directives: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Extension settings: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Device Info: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load User Consents: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Send Tab To Self: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Web Apps: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Collection: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Edge Hub App Usage: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Edge Tab Group: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Edge E Drop: success
+2024-09-18T11:31:52.307Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Edge Wallet: success
+2024-09-18T11:31:52.319Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Sessions: success
+2024-09-18T11:31:52.319Z P:1732 T:9616] DataTypeManagerImpl::OnAllDataTypesReadyForConfigure,Start to configure data types
+2024-09-18T11:31:52.319Z P:1732 T:9616] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 4 and next configuring types are: Encryption Keys
+2024-09-18T11:31:52.319Z P:1732 T:9616] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-09-18T11:31:52.794Z P:1732 T:1580] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-09-18T11:31:52.801Z P:1732 T:9616] DataTypeManagerImpl::ConfigurationCompleted,Need reconfigure with failed types: 
+2024-09-18T11:31:52.801Z P:1732 T:9616] ModelLoadManager::Configure,Desired types without errors: Bookmarks, Preferences, Passwords, Autofill Profiles, Autofill, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, Device Info, User Consents, Send Tab To Self, Web Apps, Collection, Edge E Drop, Edge Hub App Usage, Edge Tab Group, Edge Wallet, Encryption Keys and types with errors: 
+2024-09-18T11:31:52.802Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Passwords
+2024-09-18T11:31:52.802Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Autofill Profiles
+2024-09-18T11:31:52.802Z P:1732 T:9616] ModelLoadManager::LoadDesiredTypes,Loading type: Autofill
+2024-09-18T11:31:52.802Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Passwords: success
+2024-09-18T11:31:52.802Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Autofill Profiles: success
+2024-09-18T11:31:52.802Z P:1732 T:9616] ModelLoadManager::ModelLoadCallback,Load Autofill: success
+2024-09-18T11:31:52.802Z P:1732 T:9616] DataTypeManagerImpl::OnAllDataTypesReadyForConfigure,Start to configure data types
+2024-09-18T11:31:52.802Z P:1732 T:9616] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 4 and next configuring types are: Encryption Keys
+2024-09-18T11:31:52.802Z P:1732 T:9616] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-09-18T11:31:52.802Z P:1732 T:10024] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-09-18T11:31:52.802Z P:1732 T:9616] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 3
+2024-09-18T11:31:52.802Z P:1732 T:9616] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 3 and next configuring types are: Preferences, Passwords, Device Info, Send Tab To Self, Edge E Drop
+2024-09-18T11:31:52.802Z P:1732 T:9616] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: Passwords, Encryption Keys
+2024-09-18T11:31:52.802Z P:1732 T:10024] SyncManagerImpl::ConfigureSyncer,Types to download: Passwords, Encryption Keys
+2024-09-18T11:31:53.456Z P:1732 T:9616] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 2
+2024-09-18T11:31:53.456Z P:1732 T:9616] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 2 and next configuring types are: Bookmarks
+2024-09-18T11:31:53.456Z P:1732 T:9616] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-09-18T11:31:53.456Z P:1732 T:10024] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-09-18T11:31:53.456Z P:1732 T:9616] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 1
+2024-09-18T11:31:53.462Z P:1732 T:9616] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 1 and next configuring types are: Autofill Profiles, Autofill, Typed URLs, Extensions, Sessions, Extension settings, History Delete Directives, User Consents, Web Apps, Collection, Edge Hub App Usage, Edge Tab Group, Edge Wallet
+2024-09-18T11:31:53.462Z P:1732 T:9616] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-09-18T11:31:53.464Z P:1732 T:10024] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-09-18T11:31:53.467Z P:1732 T:9616] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 0
+2024-09-18T11:31:53.469Z P:1732 T:9616] SyncServiceImpl::OnConfigureDone,Configure DataTypeManager with: Ok
+2024-09-18T11:31:55.883Z P:1732 T:4176] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:32:27.178Z P:1732 T:1580] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:33:36.418Z P:1732 T:1580] Commit::PostAndProcessResponse,Process Sessions: Success
+2024-09-18T11:39:57.813Z P:1732 T:9616] SyncServiceImpl::ResetEngine,Reset engine with reason: 0

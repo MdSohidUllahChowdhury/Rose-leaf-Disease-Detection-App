@@ -22,7 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    loadModel().then((value) {
+    loadModel().catchError((value) {
       setState(() {});
     });
   }
@@ -88,9 +88,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: SingleChildScrollView(scrollDirection: Axis.vertical,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              SizedBox(height:20),
+              SizedBox(height:40),
               ElevatedButton(
               style: ButtonStyle(
                 backgroundColor: WidgetStateProperty.all<Color>(Color(0xFFEEDA28),),

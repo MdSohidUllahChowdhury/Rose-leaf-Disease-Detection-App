@@ -10,10 +10,6 @@ void main() {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'BaganBilash',
-          theme: ThemeData(
-            primarySwatch: Colors.blue,
-          ),
           home: MyHomePage(),
         );
       })));
