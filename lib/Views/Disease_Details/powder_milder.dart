@@ -8,9 +8,10 @@ class PowderMilder extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Powdery Mildew',
+        title: Text('Powdery Milder'.toUpperCase(),
             style: TextStyle(
-                fontSize: 25,
+                fontSize: 20,
+                letterSpacing: 1.2,
                 color: Colors.black,
                 fontWeight: FontWeight.bold)),
         leading: IconButton(
@@ -28,9 +29,10 @@ class PowderMilder extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Container(
           decoration:
-              BoxDecoration(color: const Color.fromARGB(255, 228, 225, 215)),
+              BoxDecoration(borderRadius: BorderRadius.circular(20),
+                color: const Color.fromARGB(255, 228, 225, 215)),
           padding: EdgeInsets.all(10),
-          margin: EdgeInsets.symmetric(horizontal: 25, vertical: 30),
+          margin: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
           child: Column(
             children: [
               SizedBox(

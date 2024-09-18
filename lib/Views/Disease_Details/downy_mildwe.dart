@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 
-class DownyMilder extends StatelessWidget {
-  const DownyMilder({super.key});
+class DownyMildwe extends StatelessWidget {
+  const DownyMildwe({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Downy Mildew',
+        title: Text('Downy Mildew'.toUpperCase(),
             style: TextStyle(
-                fontSize: 25,
+                fontSize: 20,
                 color: Colors.black,
+                letterSpacing: 1.2,
                 fontWeight: FontWeight.bold)),
         leading: IconButton(
             onPressed: () {
@@ -28,9 +29,10 @@ class DownyMilder extends StatelessWidget {
       body: SingleChildScrollView(
         child: Container(
           decoration:
-              BoxDecoration(color: const Color.fromARGB(255, 228, 225, 215)),
+              BoxDecoration(borderRadius: BorderRadius.circular(20),
+                color: const Color.fromARGB(255, 228, 225, 215)),
           padding: EdgeInsets.all(10),
-          margin: EdgeInsets.symmetric(horizontal: 25, vertical: 30),
+          margin: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
           child: Column(
             children: [
               SizedBox(

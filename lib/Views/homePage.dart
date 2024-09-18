@@ -1,5 +1,6 @@
 import 'dart:io';
-import 'package:baganbilash/Widgets/my_drawer.dart';
+import 'package:baganbilash/Controllers/style_fonts.dart';
+import 'package:baganbilash/Widgets/drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:tflite/tflite.dart';
@@ -72,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
     classifyImage(_image);
   }
 
-  // drawer key
+  //* drawer key
   final GlobalKey<ScaffoldState> _scaffoldkey = GlobalKey();
 
   @override
@@ -80,30 +81,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       drawer: MyDrawer(),
       key: _scaffoldkey,
-      appBar: AppBar(
-          elevation: 0,
-          toolbarHeight:35,
-          leadingWidth: 120,
-          backgroundColor: Colors.transparent,
-          leading: ElevatedButton(
-              style: ButtonStyle(
-                backgroundColor: WidgetStateProperty.all<Color>(Colors.black),
-                shape: WidgetStateProperty.all<RoundedRectangleBorder>(
-                    RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30.0),
-                        side: BorderSide(
-                          color: Color(0xFF101010),
-                          width: 20,
-                        ))),
-              ),
-              onPressed: () {
-                _scaffoldkey.currentState!.openDrawer();
-              },
-              child: Text(
-                "🦠 info",
-                style:
-                    myStile20(color: Colors.white, fontWeight: FontWeight.bold),
-              ))),
       backgroundColor: Color(0xFF101010),
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 24),
@@ -112,7 +89,30 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              SizedBox(height: 70),
+              SizedBox(height:20),
+              ElevatedButton(
+              style: ButtonStyle(
+                backgroundColor: WidgetStateProperty.all<Color>(Colors.black),
+                shape: WidgetStateProperty.all<RoundedRectangleBorder>(
+                    RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30.0),
+                        side: BorderSide(
+                          color: Color(0xFF101010),
+                          width:80,
+                        )
+                       )
+                      ),
+              ),
+              onPressed: () {
+                _scaffoldkey.currentState!.openDrawer();
+              },
+              child: Text(
+                "🦠 info",
+                style:TextStyle(
+                  fontSize: 20,
+                  color: Colors.white,    
+                )
+              )),
               Text(
                 'BaganBilash',
                 style: GoogleFonts.roboto(
@@ -177,7 +177,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             borderRadius: BorderRadius.circular(6)),
                         child: Text(
                           'Gallery',
-                          style: myStile20(
+                          style: myStyle20(
                               color: Colors.white, fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -197,7 +197,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             borderRadius: BorderRadius.circular(6)),
                         child: Text(
                           'Camera Roll',
-                          style: myStile20(
+                          style: myStyle20(
                               color: Colors.white, fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -213,10 +213,4 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-myStile20({double? size, required color, FontWeight? fontWeight}) {
-  return GoogleFonts.roboto(fontSize: 20, color: color, fontWeight: fontWeight);
-}
 
-myStile25({double? size, required color, FontWeight? fontWeight}) {
-  return GoogleFonts.roboto(fontSize: 25, color: color, fontWeight: fontWeight);
-}

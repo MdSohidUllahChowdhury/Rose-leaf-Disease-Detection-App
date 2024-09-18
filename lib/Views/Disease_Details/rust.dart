@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 
-class Rast extends StatelessWidget {
-  const Rast({super.key});
+class Rust extends StatelessWidget {
+  const Rust({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Rust",
+        title: Text("RUST",
             style: TextStyle(
-                fontSize: 25,
+                fontSize: 20,
                 color: Colors.black,
+                letterSpacing: 1.2,
                 fontWeight: FontWeight.bold)),
         centerTitle: true,
         leading: IconButton(
@@ -26,10 +27,12 @@ class Rast extends StatelessWidget {
       ),
       body: Container(
         decoration:
-            BoxDecoration(color: const Color.fromARGB(255, 228, 225, 215)),
+            BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              color: const Color.fromARGB(255, 228, 225, 215)),
         width: double.infinity,
         padding: EdgeInsets.all(10),
-        margin: EdgeInsets.symmetric(horizontal: 25, vertical: 30),
+        margin: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
         child: SingleChildScrollView(
           scrollDirection: Axis.vertical,
           child: Column(
