@@ -38,6 +38,7 @@ dependencies:
   tflite: ^1.1.2
   image_picker: 1.0.5
   google_fonts: ^6.1.0
+  flutter_screenutil: ^5.9.3
 
 dev_dependencies:
   flutter_test:
