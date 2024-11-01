@@ -1,8 +1,8 @@
 import 'package:baganbilash/Controllers/disease_name_route.dart';
-import 'package:baganbilash/Views/Disease_Details/black_spot.dart';
-import 'package:baganbilash/Views/Disease_Details/downy_mildwe.dart';
-import 'package:baganbilash/Views/Disease_Details/powder_milder.dart';
-import 'package:baganbilash/Views/Disease_Details/rust.dart';
+import 'package:baganbilash/Views/disease_details_screens/black_spot.dart';
+import 'package:baganbilash/Views/disease_details_screens/downy_mildwe.dart';
+import 'package:baganbilash/Views/disease_details_screens/powder_milder.dart';
+import 'package:baganbilash/Views/disease_details_screens/rust.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -29,16 +29,16 @@ class MyDrawer extends StatelessWidget {
                     fontWeight: FontWeight.bold),
               ),
           SizedBox(height:15),
-          DieaseName('Powdery Milder',
+          dieaseName('Powdery Milder',
             () => Navigator.of(context)
                 .push(MaterialPageRoute(builder: (_) => PowderMilder()))),
-          DieaseName('Downy Mildwe',
+          dieaseName('Downy Mildwe',
               () => Navigator.of(context)
                   .push(MaterialPageRoute(builder: (_) => DownyMildwe()))),
-          DieaseName('Black Spot',
+          dieaseName('Black Spot',
               () => Navigator.of(context)
                   .push(MaterialPageRoute(builder: (_) => BlackSpot()))),
-          DieaseName('Rust',
+          dieaseName('Rust',
               () => Navigator.of(context)
                   .push(MaterialPageRoute(builder: (_) => Rust()))),
         ],

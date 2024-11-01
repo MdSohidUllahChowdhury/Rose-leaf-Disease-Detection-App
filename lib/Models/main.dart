@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
   runApp((ScreenUtilInit(
-      designSize: Size(360, 690),
+      designSize: Size(375, 725),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {

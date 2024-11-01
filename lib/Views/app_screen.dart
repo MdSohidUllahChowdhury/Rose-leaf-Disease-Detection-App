@@ -1,5 +1,6 @@
 import 'dart:io';
-import 'package:baganbilash/Controllers/style_fonts.dart';
+import 'package:baganbilash/Widgets/camera_gallery.dart';
+import 'package:baganbilash/Widgets/disease_bottom.dart';
 import 'package:baganbilash/Widgets/drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -27,9 +28,9 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
- Future<void> loadModel() async {
+  Future<void> loadModel() async {
     await Tflite.loadModel(
-        model: 'lib/Assets/model_unquant.tflite', 
+        model: 'lib/Assets/model_unquant.tflite',
         labels: 'lib/Assets/labels.txt');
   }
 
@@ -85,133 +86,52 @@ class _MyHomePageState extends State<MyHomePage> {
       key: _scaffoldkey,
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 24),
-        child: SingleChildScrollView(scrollDirection: Axis.vertical,
+        child: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              SizedBox(height:40),
-              ElevatedButton(
-              style: ButtonStyle(
-                backgroundColor: WidgetStateProperty.all<Color>(Color(0xFFEEDA28),),
-                shape: WidgetStateProperty.all<RoundedRectangleBorder>(
-                    RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30.0),
-                        side: BorderSide(
-                          color: Color(0xFF101010),
-                          width:80,
-                        )
-                       )
-                      ),
-              ),
-              onPressed: () {
-                _scaffoldkey.currentState!.openDrawer();
-              },
-              child: Text(
-                "🦠 Diseas Details",
-                style:
-                  GoogleFonts.roboto(
-                    color: Colors.black,
-                    fontSize:15,
-                    fontWeight: FontWeight.w700),
-                  
-              )),
+              SizedBox(height: 40),
+              diseaseDetailBottom(
+                  () => _scaffoldkey.currentState!.openDrawer()),
               Text('BaganBilash',
                 style: GoogleFonts.roboto(
                     color: Color(0xFFEEDA28),
-                    fontSize:46,
-                    fontWeight: FontWeight.bold),
-              ),
-              SizedBox(height:30),
-              
-              
+                    fontSize: 46,
+                    fontWeight: FontWeight.bold)
+                    ),
+              SizedBox(height: 30),
               Center(
-               child: _loading? 
-               Container(
-                   width:450,
-                   
-                   child: Column(
-                     children: [
-                      Image.asset('lib/Assets/tree.png',),
-                      SizedBox(height: 40)   
-                        ],
-                       ),
-                      )
-                      
-               : Container(
-                    child: Column(
-                     children: [
-                       Container(
-                        height: 250,
-                        child: Image.file(_image),
-                        ),
-                       SizedBox(height: 20),
-                       _output != _output
-                       ? Text('Error',
-                          style: TextStyle(
-                            color: Colors.white, 
-                            fontSize: 20
-                            ),
-                           )
-                        : Text('${_output[0]['label']}',
-                           style: TextStyle(
-                             color: Colors.white, 
-                             fontSize: 20
-                             ),
-                            ),
-                              SizedBox(height: 10)
+                  child: _loading
+                      ? Container(
+                        padding: EdgeInsets.only(top: 4),
+                          width: 450,
+                          child: Column(
+                            children: [
+                              Image.asset('lib/Assets/tree.png'),
+                              SizedBox(height: 40)
                             ],
                           ),
-                         )
-                        ),
-              
-         Container(
-          child: Column(
-            
-            children: [
-              
-              GestureDetector(
-                onTap: pickImage,
-                child: Container(
-                  width: MediaQuery.of(context).size.width - 120,
-                  height:MediaQuery.of(context).size.height *.075,
-                  alignment: Alignment.center,
-                  padding:EdgeInsets.symmetric(horizontal: 24, vertical: 17),
-                  decoration: BoxDecoration(
-                      color: Color(0xFFE99600),
-                      borderRadius: BorderRadius.circular(16)),
-                  child: Text('🖼️ Gallery',
-                  textAlign: TextAlign.center,
-                          style: myStyle20(
-                              color: Colors.white, 
-                              fontWeight: FontWeight.w600),
-                           ),
+                        )
+                      : Column(
+                        children: [
+                          Container(
+                            padding: EdgeInsets.only(top: 4),
+                            height: 250,
+                            child: Image.file(_image),
                           ),
-                         ),
-                    
-              SizedBox(height: 10),
-
-              GestureDetector(
-                onTap: pickGalleryImage,
-                child: Container(
-                   width: MediaQuery.of(context).size.width - 120,
-                   height:MediaQuery.of(context).size.height *.075,
-                   alignment: Alignment.center,
-                   padding:EdgeInsets.symmetric(horizontal: 24, vertical: 17),
-                   decoration: BoxDecoration(
-                      color: Color(0xFFE99600),
-                      borderRadius: BorderRadius.circular(16)),
-                   child: Text('📸 Take Snap',
-                   textAlign: TextAlign.center,
-                          style: myStyle20(
-                              color: Colors.white, 
-                              fontWeight: FontWeight.w600),
-                        ),
+                          SizedBox(height: 20),
+                          _output != _output
+                              ? Text('Error',
+                                  style: TextStyle(color: Colors.white, fontSize: 20))
+                              : Text('${_output[0]['label']}',
+                                  style: TextStyle(color: Colors.white, fontSize: 20)),
+                          SizedBox(height: 10)
+                        ],
+                       )
                       ),
-                    )
-                  ],
-                ),
-              )
+              galleryCamera(context, pickGalleryImage, pickImage)
             ],
           ),
         ),

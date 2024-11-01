@@ -1,0 +1,289 @@
+{
+   "checksum": "1f080983b724635b9a2e072638b6cd50",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13299006903664508",
+               "date_last_used": "0",
+               "guid": "b10480d9-80c6-433d-a677-620dfe99966a",
+               "id": "13",
+               "name": "Codecademy",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://www.codecademy.com/learn",
+               "visit_count": 0
+            }, {
+               "date_added": "13339578254106778",
+               "date_last_used": "0",
+               "guid": "5d6c292a-ca34-4049-8bb7-c5a0d4563ca0",
+               "id": "14",
+               "name": "Developer Roadmaps - roadmap.sh",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://roadmap.sh/",
+               "visit_count": 0
+            } ],
+            "date_added": "13311352698710693",
+            "date_last_used": "0",
+            "date_modified": "13339578254106778",
+            "guid": "989acb7c-83ec-4e02-adbc-7ddfba0982a4",
+            "id": "12",
+            "name": "Programming Site",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13266484643734482",
+               "date_last_used": "0",
+               "guid": "26d850de-8780-40fd-b08b-45e5d82e20ac",
+               "id": "16",
+               "name": "TL-WR820N",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://192.168.0.1/",
+               "visit_count": 0
+            }, {
+               "date_added": "13266484577138266",
+               "date_last_used": "0",
+               "guid": "d17bf623-81a5-4a87-8f2c-94aecfa5d8e8",
+               "id": "17",
+               "name": "Students Portal | DIU",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://students.diu.ac/",
+               "visit_count": 0
+            }, {
+               "date_added": "13279564266544252",
+               "date_last_used": "0",
+               "guid": "0a9648ec-5150-48ab-8745-3f674a91b02a",
+               "id": "18",
+               "name": "Live Football",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://yacine-tv.com/today-matches/",
+               "visit_count": 0
+            }, {
+               "date_added": "13322506637113747",
+               "date_last_used": "0",
+               "guid": "92fe5982-9ac3-4836-9266-05b58436a70c",
+               "id": "19",
+               "name": "DFLIX LIVE",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://tv.dflix.live/",
+               "visit_count": 0
+            }, {
+               "date_added": "13326966177283181",
+               "date_last_used": "0",
+               "guid": "743abfaa-2bbc-4bce-9f6e-66a058b2b61e",
+               "id": "20",
+               "name": "DOT SelfCare",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://selfcare.dotinternetbd.com/customer/",
+               "visit_count": 0
+            }, {
+               "date_added": "13333209584122168",
+               "date_last_used": "0",
+               "guid": "39651a92-2b1e-4972-a031-f82098730e05",
+               "id": "21",
+               "name": "Live Tv!!",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://tv.amrbd.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13337618343952980",
+               "date_last_used": "0",
+               "guid": "c73b1932-f7a5-4af0-bb34-2182d8335147",
+               "id": "22",
+               "name": "BDIPTV LIVE !!",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://bdiptv.net/",
+               "visit_count": 0
+            } ],
+            "date_added": "13311352787964804",
+            "date_last_used": "0",
+            "date_modified": "13337618343952980",
+            "guid": "aa7e47da-062c-4656-b047-dcda6477bc79",
+            "id": "15",
+            "name": "Tools ⚙ ",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13294656133470251",
+               "date_last_used": "0",
+               "guid": "96dfcf8b-88f6-4479-a912-e68f36a7987b",
+               "id": "24",
+               "name": "Streaming 01",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://fmovies.to/",
+               "visit_count": 0
+            }, {
+               "date_added": "13314619980280256",
+               "date_last_used": "0",
+               "guid": "36e16db6-2295-424e-83a8-8456c25abbdb",
+               "id": "25",
+               "name": "Streaming 02",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://goku.to/tv-series",
+               "visit_count": 0
+            }, {
+               "date_added": "13317219684380797",
+               "date_last_used": "0",
+               "guid": "60654d2f-597a-4134-8b76-4104865cafb9",
+               "id": "26",
+               "name": "Anime Streaming",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://zoro.to/home",
+               "visit_count": 0
+            }, {
+               "date_added": "13326970633569588",
+               "date_last_used": "0",
+               "guid": "fab02367-8e17-4356-aa2e-2a56b55a01a9",
+               "id": "27",
+               "name": "Torrent",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://ytstvmovies.xyz/",
+               "visit_count": 0
+            } ],
+            "date_added": "13294057549727643",
+            "date_last_used": "0",
+            "date_modified": "13326970633569588",
+            "guid": "9d69279e-772f-40d7-8e55-34af6df63f5d",
+            "id": "23",
+            "name": "Movies Site",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13371115365300688",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13339582719994602",
+               "date_last_used": "0",
+               "guid": "527ee7c9-cd74-48ed-b382-6a50da9d7807",
+               "id": "7",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Youtube",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://youtube.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13339582719997895",
+               "date_last_used": "0",
+               "guid": "41378ad2-8890-4be9-ab3d-a5544cd202bb",
+               "id": "8",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Facebook",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://facebook.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13339582720002474",
+               "date_last_used": "0",
+               "guid": "16aabda9-bca2-447e-b602-d2e3bb23cff1",
+               "id": "9",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Instagram",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://instagram.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13339582720012428",
+               "date_last_used": "0",
+               "guid": "581c1c03-f199-4fdc-82fd-10775783fb4f",
+               "id": "10",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "WhatsApp",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://whatsapp.com/",
+               "visit_count": 0
+            }, {
+               "children": [  ],
+               "date_added": "13339582772853710",
+               "date_last_used": "0",
+               "date_modified": "13339582772853710",
+               "guid": "43314ded-2cca-45f6-840c-7d333a816522",
+               "id": "11",
+               "name": "Bookmarks",
+               "source": "unknown",
+               "type": "folder"
+            } ],
+            "date_added": "13339582719981643",
+            "date_last_used": "0",
+            "date_modified": "13339582720012428",
+            "guid": "7de824da-fd37-41d9-a886-6904f8c1182d",
+            "id": "6",
+            "name": "Homey",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13371115365300693",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13371115365300696",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCOw72gOSAQAAKg4QABgBIAAoBTAAOABAABIAKhgxQS9HYm41WHVBS3k5c0ZzWTNJZ0RnPT1IA6AGDBKnAQgbEqIBChxXanJ3M1ZoR1ZwSXBGVldVZUp3SzNqK2JxU1U9EiRmYWIwMjM2Ny04ZTE3LTQzNTYtYWEyZS0yYTU2YjU1YTAxYTkYACAAKAAw7c6O5fswOOTPjeX7MEDkz43l+zBKHDB1WHRycEhDUGN5K3A2VWwrMVlpamNsWHpKND1aHiIcZk9XMHFoNG9oWFNUTW4zZ25ZdGFWaUJ1NHhVPWU8eSlIEqcBCBoSogEKHGFoQ1lObEYvRnlxU3ZFeVg5WDRBZURXQkk0QT0SJDYwNjU0ZDJmLTU5N2EtNDEzNC04Yjc2LTQxMDQ4NjVjYWZiORgAIAAoADCbgcC71zA4zMy+u9cwQMzMvrvXMEocZ0hNemxsbG5rZEJrNFJrTklTOXR6NXVVTEZRPVoeIhxGMGVTUzB3TldEZFBHOGtNeWhlT0wyY3hpRWM9ZbTtWSsSqAEIFRKjAQocZU54VFVlNWUzYkVOeFJRdWxoUzMxOW1nNldNPRIkMzk2NTFhOTItMmIxZS00OTcyLWEwMzEtZjgyMDk4NzMwZTA1GAAgACgAMKuOiYSTMTjJ7IiEkzFAyeyIhJMxShw4cisxWFJNNCsvZG56Q3U1bzNVSFNic3ZFSzg9Wh8iHa1BK2FZT0VqR0luVytMMEhjeml5TldkZDdoQ0k9ZQAAAAASqAEIGRKjAQocY2daS2YxYXdBYkh2ajNYNHJ6NVpacmNMbVFvPRIkMzZlMTZkYjYtMjI5NS00MjRlLTgzYTgtODQ1NmMyNWFiYmRiGAAgACgAMN756puiMTjypu3jzTBA8qbt480wShxUY1NZUHhxY0x0SEt0T2xFMTVSWEM4SzFNQzg9Wh8iHQZBNXdnQUltdFZCSElVT1JtUlpEelQ4ZnY2Tnc9ZWyvGhASqAEICRKjAQocb0xCR0tYMHpVdm1uVENEOGovY01OdUx0WDU0PRIkMTZhYWJkYTktYmNhMi00NDdlLWI2MDItZDJlM2JiMjNjZmYxGAAgACgAMLWaguOqMTjpnYLjqjFA6Z2C46oxShxYbndIVjlQamowNjFiVHJGV3gxSlppQ3FyRWM9Wh8iHd5ldndPMXZwOTcxQ2l5TVV2TG1kamFpNDRkUVk9ZQAAAAASqAEIGBKjAQocaGhucmlvQkpZeGlCUnJJTzVpaFZXUFg2N1dVPRIkOTZkZmNmOGItODhmNi00NDc5LWE5MTItZTY4ZjM2YTc5ODdiGAAgACgAMLO2gKmIMTjNjq20gzBAzY6ttIMwShxoM3BsNVlHWFVXQnl1aTJFQ1JTNkxuVlA5Tm89Wh8iHQNieS90THkrWEhBTEFXQnVUOG9BNHU4YWV3VVU9Zbzt3r8SqgEIFxKlAQocbVFPUzRvUmdzV2x4QUh5eFBqeDVtMytWRzlrPRIkOWQ2OTI3OWUtNzcyZi00MGQ3LThlNTUtMzRhZjZkZjYzZjVkGAAgACgAMLC195aBMDiruvaWgTBAq7r2loEwShxxSWtlSmd6WDlna3pXSW1Na3RSRC9YT0E1VGc9WiEiH///slh0azcybVg3a3BBUHJ6SzdTUjBmK1ZobU5ldz1lAAAAABKoAQgQEqMBChxWM3ZRTEZWODdxdmpvRWkzY1ZyblBTL09XSWs9EiQyNmQ4NTBkZS04NzgwLTQwZmQtYjA4Yi00NWU1ZDgyZTIwYWMYACAAKAAw5cv3svYwOOmzy6DmL0Dps8ug5i9KHENFeDJkR2FVRURlb29KeFVFZVVlallUczlaTT1aHyIdBEU5Sk92WVpPd1owbG9CZlVmL1NEbzZCWUtHbz1lquRDFRKoAQgWEqMBChx3T1Bkd0xDYkt1QWlVZFU1V0g4RWJrSDFnbkU9EiRjNzNiMTkzMi1mN2E1LTRhZjAtYmIzNC0yMTgyZDgzMzUxNDcYACAAKAAwqqGquqMxOIKkqrqjMUCCpKq6ozFKHGJoc2tHRVo2UkpPNkFoUUNrZ29rdzZNd2JYOD1aHyId1jMvWVZ3TGxUNzhqM2lERWxRR1V2VVowcTVPQT1lAAAAABKnAQgGEqIBChw1SDEzZXZBNGkyYlJHSmxmVmZKUmFYRzlaNE09EiQ3ZGU4MjRkYS1mZDM3LTQxZDktYTg4Ni02OTA0ZjhjMTE4MmQYACAAKAAwspqC46oxOJidguOqMUCYnYLjqjFKHDVMTTFxVDdocjNuTlE5Qy9Ba1pmUktEbGxTQT1aHiIceFh2UHpMWWpzRUVBQm15cnE3anI1K3F6QjRRPWUAAAAAEqcBCBQSogEKHFYxdzhiNnBOYi9KenZvU2ozWDF2RyszWmk0OD0SJDc0M2FiZmFhLTJiYmMtNGJjZS05ZjZlLTY2YTA1OGIyYjYxZRgAIAAoADD4z/3i+zA44ND94vswQODQ/eL7MEoca2xTaEZFOVRNMUhsSElZZjl0YXJDN2U3OHhvPVoeIhxaOUY0VlI2am9HL3I0MWNKbGoxVEdTeXB1Sjg9ZeJc6RYSqAEIERKjAQocUmxKTS96ZGtKeEdaeFdxeHhYTDVUejRFM2xBPRIkZDE3YmY2MjMtODFhNS00YTg3LThmMmMtOTRhZWNmYTVkOGU4GAAgACgAMLDEhu7pMDiCnsyg5i9Agp7MoOYvShxRMWNza1FrNEN6RnRIY3h4SzFuVjRIbFRXK3c9Wh8iHQlCdmRwNWQrdUQzSU5DSU54cHJpelFVRllhcU09ZUj2SS8SpwEIDxKiAQocdVgzem5MWk5jbHdPTmJRQnFZK2xlem5GMS9zPRIkYWE3ZTQ3ZGEtMDYyYy00NjU2LWIwNDctZGNkYTY0NzdiYzc5GAAgACgAMNGPg87BMDik7vfNwTBApO73zcEwShxQY09hWXlRWDJ1VXRjSmhWOVRpV0FUczBub0U9Wh4iHFFuTEI0S2FMYjl0cUkwODBjQW5pdFRZVkx1RT1lAAAAABKoAQgSEqMBChxWVG9zWWdIRzRnek9tOFBKZjE4ZjVPenB0MFE9EiQwYTk2NDhlYy01MTUwLTQ4YWItODc0NS0zZjY3NGE5MWIwMmEYACAAKAAwm/32lOswOK3JzKDmL0Ctycyg5i9KHHUwVnlOaGRzalBoOTQyL3I0VFNHUGRtMGZHRT1aHyIdEzVoRVdoU2ljY1Z0dU03Y3RuZ1dKYWxBOHNaUT1l9AN73hKJAQgCEoQBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQwNjRiYTBiNS1hOTgzLTU0MzgtYjNlMi0xOWNkZDQxMmMwODcYACAAKAAwto3NybAwONyty6DmL0Dcrcug5i9KHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEqcBCA4SogEKHFJxZjZXSkxaZ2xyRk1JWE05MHJBZS9JZHRYbz0SJDVkNmMyOTJhLWNhMzQtNDA0OS04YmI3LWM1YTBkNDU2M2NhMBgAIAAoADCcgvLgqjE45tLx4KoxQObS8eCqMUocZUVUa1BQK3JMcjEyM1RvU0htVnhpTFVFOVQ4PVoeIhxOL0dWbkJEU1QzRWNXYU93d0s4TmM3bldWTGs9ZfjklVMSqAEIDRKjAQocK0lFTko5V1lTWm9SdE5Gd0VZNHlOdEhwK0FZPRIkYjEwNDgwZDktODBjNi00MzNkLWE2NzctNjIwZGZlOTk5NjZhGAAgACgAMOCu9c3BMDjskPvOkzBA7JD7zpMwShxFSlh2T0JzNk5uNWNsRkpNUUE5ekxDYkdCcnM9Wh8iHRoxaGpjTS9HZGNZcTFvd0I4UTBhVG1GWkhqc1k9ZQcKEOISpwEIExKiAQocNzRmdUhGL1JWcXFxSHVrREt2QkxXSkFIbTR3PRIkOTJmZTU5ODItOWFjMy00ODM2LTkyNjYtMDViNTg0MzZhNzBjGAAgACgAMJeLwZTrMDjD4MCU6zBAw+DAlOswShxTUnNOb3lJM3RDbFhXby93aEgxaFFXRGJKOVU9Wh4iHEJPcWNRdmxWUGhrM21WZEVIL2NWTWpxUWQycz1lAAAAABKoAQgLEqMBChxCZEJkNHBQUnJGL1Yyc2cydXRQOVpIQ0ZwYXc9EiQ0MzMxNGRlZC0yY2NhLTQ1ZjYtODQwYy03ZDMzM2E4MTY1MjIYACAAKAAw77eF46oxOJq7heOqMUCau4XjqjFKHHJ6eUlXOUoyeU41MXUzWUQrSVRYTCtkUmVsMD1aHyId93h4QlVPTk9JQnQ1TkJYVSs2WXB4c0toTzJXdz1lAAAAABKoAQgIEqMBChxGeUZobmEwczJ5L1JjWDQ2L3pFOGlQSlJCb3M9EiQ0MTM3OGFkMi04ODkwLTRiZTktYWIzZC1hNTU0NGNkMjAyYmIYACAAKAAwtJqC46oxOMydguOqMUDMnYLjqjFKHFNVaHZuVUJqbmd6QVlaZkQxeTkzak5aWm9RRT1aHyIdvE9tbmRacnJhanZJdUpqK1ZRS1NYQUJrWWM1bz1lxJF2xRKoAQgKEqMBChx0RkJLMVZuWE1nV3Jmd0hzeHNnZkJXSTgyb3c9EiQ1ODFjMWMwMy1mMTk5LTRmZGMtODJmZC0xMDc3NTc4M2ZiNGYYACAAKAAwtpqC46oxOISeguOqMUCEnoLjqjFKHFJESG8rNXZWeEN1QnlPVHRpVThTdVZaY0xXVT1aHyId71NZWjZvVkRpamVIL05xVDhpU0U5VUtMRWthVT1lAAAAABKnAQgHEqIBChxPOEVSZnpYRCs3bDhzSnhyVFBvbG5HOWdlY2c9EiQ1MjdlZTdjOS1jZDc0LTQ4ZWQtYjM4Mi02YTUwZGE5ZDc4MDcYACAAKAAws5qC46oxOLKdguOqMUCynYLjqjFKHHE2bnNBNTBWbGJUNUxYamcxbnNCdm5zRGlXUT1aHiIceDR3OS9UUVhYbE4wTE00Uk9wUnZybEF5SWZzPWUAAAAAEokBCAEShAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJGNmZTQ5ODY3LTFhMTctNWFiZi05YmUzLWQ2Y2ZkNzYxZGM0ORgAIAAoADC2jc3JsDA4z6zLoOYvQM+sy6DmL0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASqAEIDBKjAQocL3BBMi9NRi9pTnU4cEtGNkpWamdpNjU4MTI4PRIkOTg5YWNiN2MtODNlYy00ZTAyLWFkYmMtN2RkZmJhMDk4MmE0GAAgACgAMJvHg87BMDjduPLNwTBA3bjyzcEwShxhOVhCU0NqcFBGZUFnd201RFh4aTR4T2VDMUU9Wh8iHShtckk5RWc5TzExTENjbUlXWkZiYkwyQ1JHYlE9ZQAAAAASiQEIAxKEAQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkYWVmODc4MDktZjVkNC01MzUwLTlmZTgtMzg2MmRhMTU1NjRiGAAgACgAMLaNzcmwMDjAscug5i9AwLHLoOYvShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAADAAOAA=",
+   "version": 1
+}
