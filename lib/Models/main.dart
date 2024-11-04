@@ -9,6 +9,7 @@ void main() {
       splitScreenMode: true,
       builder: (context, child) {
         return MaterialApp(
+          theme: ThemeData(useMaterial3: true),
           debugShowCheckedModeBanner: false,
           home: MyHomePage(),
         );
