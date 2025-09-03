@@ -1,9 +1,9 @@
 import 'dart:io';
-import 'package:baganbilash/Widgets/camera_gallery.dart';
-import 'package:baganbilash/Widgets/disease_bottom.dart';
-import 'package:baganbilash/Widgets/drawer.dart';
+import 'package:roseleaf/Widgets/drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:roseleaf/widgets/buttonCameraAndGallery.dart';
+import 'package:roseleaf/widgets/drawerIcon.dart';
 import 'package:tflite/tflite.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -95,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               SizedBox(height: 40),
-              diseaseDetailBottom(
+              detailsIconBottom(
                   () => _scaffoldkey.currentState!.openDrawer()),
               SizedBox(height: 15),
               Text('ROSE LEAF DISEASE IDENTIFIER',
@@ -115,8 +115,11 @@ class _MyHomePageState extends State<MyHomePage> {
                                   height: 320),
                               SizedBox(height: 20),
                               Text('“Smart Leaf Disease Identifier”',
-                                  style: GoogleFonts.roboto(
+                                  style: 
+                                  GoogleFonts.roboto(
                                       color: Color(0xFF101010),
+                                      wordSpacing:2,
+                                      letterSpacing: 2.4,
                                       fontSize: 18,
                                       fontWeight: FontWeight.bold)),
                               SizedBox(height: 40)
@@ -132,12 +135,12 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             SizedBox(height: 20),
               (_output == null || _output!.isEmpty)
-                ? Text('Error',
+                ? Text('Not Detected Disease',
                   style: TextStyle(
-                    color: Colors.black, fontSize: 20))
+                    color: Colors.black, fontSize: 16,fontWeight: FontWeight.bold))
                 : Text('${_output![0]['label']}',
                   style: TextStyle(
-                    color: Colors.black, fontSize: 20)),
+                    color: Colors.black, fontSize: 16,fontWeight: FontWeight.bold)),
                             SizedBox(height: 10)
                           ],
                         )),

@@ -1,5 +1,6 @@
-import 'package:baganbilash/utils/style_fonts.dart';
+import 'package:roseleaf/utils/styleFonts.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 Widget galleryCamera(BuildContext context,void Function()? gallery,void Function()? camera ){
 
@@ -19,12 +20,12 @@ Widget galleryCamera(BuildContext context,void Function()? gallery,void Function
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.camera_alt, color: Colors.white),
+                          Icon(FontAwesomeIcons.cameraRetro, color: Colors.white),
                           SizedBox(width: 8),
                           Text(
                             'Camera',
                             textAlign: TextAlign.center,
-                            style: myStyle20(
+                            style: fontSmall(
                                 color: Colors.white,size: 18),
                           ),
                         ],
@@ -46,12 +47,12 @@ Widget galleryCamera(BuildContext context,void Function()? gallery,void Function
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.photo, color: Colors.white),
+                          Icon(FontAwesomeIcons.photoFilm, color: Colors.white),
                           SizedBox(width: 8),
                           Text(
-                            'Gallery',
+                            ' Gallery',
                             textAlign: TextAlign.center,
-                            style: myStyle20(
+                            style: fontSmall(
                                 color: Colors.white, size: 18),
                           ),
                         ],

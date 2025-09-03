@@ -1,4 +1,4 @@
-import 'package:baganbilash/utils/style_fonts.dart';
+import 'package:roseleaf/utils/styleFonts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -17,7 +17,7 @@ Widget dieaseName(String diseaseName, void Function()? routname) {
         child: Text(
           diseaseName,
           textAlign: TextAlign.center,
-          style: myStyle18(color: Color(0xFF004643,)),
+          style: fontLarg(color: Color(0xFF004643,)),
         ),
       ));
 }

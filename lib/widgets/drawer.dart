@@ -1,11 +1,11 @@
-import 'package:baganbilash/controllers/routes/disease_name_route.dart';
-import 'package:baganbilash/views/diseaseInfo/black_spot.dart';
-import 'package:baganbilash/views/diseaseInfo/downy_mildwe.dart';
-import 'package:baganbilash/views/diseaseInfo/powder_milder.dart';
-import 'package:baganbilash/views/diseaseInfo/rust.dart';
+import 'package:roseleaf/controllers/routes/diseaseNameRoutes.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:baganbilash/widgets/social_links.dart';
+import 'package:roseleaf/views/diseaseInfoScreen/blackSpot.dart';
+import 'package:roseleaf/views/diseaseInfoScreen/downyMildwe.dart';
+import 'package:roseleaf/views/diseaseInfoScreen/powderMilder.dart';
+import 'package:roseleaf/views/diseaseInfoScreen/rust.dart';
+import 'package:roseleaf/widgets/socialLinks.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
