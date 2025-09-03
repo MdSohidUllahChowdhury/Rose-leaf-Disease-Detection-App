@@ -8,7 +8,7 @@ Widget detailsIconBottom(void Function()? path) {
         onPressed: path,
         icon: Icon(
           FontAwesomeIcons.circleInfo, 
-          color: Colors.black, 
+          color: Color(0xFF004643), 
           size:30)),
   );
 }

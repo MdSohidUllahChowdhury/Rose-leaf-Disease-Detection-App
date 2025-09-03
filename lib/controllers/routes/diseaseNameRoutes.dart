@@ -1,4 +1,4 @@
-import 'package:roseleaf/utils/styleFonts.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -17,7 +17,12 @@ Widget dieaseName(String diseaseName, void Function()? routname) {
         child: Text(
           diseaseName,
           textAlign: TextAlign.center,
-          style: fontLarg(color: Color(0xFF004643,)),
+          style: TextStyle(
+              fontFamily: GoogleFonts.robotoSerif().fontFamily,
+              color: Color(0xFF004643),
+              fontSize: 16,
+              letterSpacing: 2,
+              fontWeight: FontWeight.bold),
         ),
       ));
 }

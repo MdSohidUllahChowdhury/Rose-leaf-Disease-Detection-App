@@ -116,11 +116,11 @@ class _MyHomePageState extends State<MyHomePage> {
                               SizedBox(height: 20),
                               Text('“Smart Leaf Disease Identifier”',
                                   style: 
-                                  GoogleFonts.roboto(
+                                  GoogleFonts.robotoSerif(
                                       color: Color(0xFF101010),
-                                      wordSpacing:2,
-                                      letterSpacing: 2.4,
-                                      fontSize: 18,
+                                      wordSpacing:1.5,
+                                      letterSpacing: 2,
+                                      fontSize: 15,
                                       fontWeight: FontWeight.bold)),
                               SizedBox(height: 40)
                             ],
