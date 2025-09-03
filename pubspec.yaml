@@ -1,0 +1,43 @@
+name: baganbilash
+description: A new Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  tflite: ^1.1.2
+  image_picker: 1.0.5
+  google_fonts: ^6.1.0
+  flutter_screenutil: ^5.9.3
+  flutter_lints: ^5.0.0
+  font_awesome_flutter: ^10.9.1
+  url_launcher: ^6.3.2
+  permission_handler: ^12.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/roseLeafLogo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf

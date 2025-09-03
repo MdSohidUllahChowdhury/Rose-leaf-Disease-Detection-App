@@ -1,0 +1,67 @@
+.DS_Store
+*.swp
+*~
+*.log
+
+# Dart/Flutter
+/.dart_tool/
+.pub/
+.packages
+pubspec.lock
+/.flutter-plugins
+/.flutter-plugins-dependencies
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Built files
+/build/
+/**/build/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/Runner.xcworkspace/
+**/xcuserdata/
+*.xcuserstate
+*.moved-aside
+DerivedData/
+
+# Android
+android/.gradle/
+android/local.properties
+android/*.iml
+**/android/app/build/
+**/android/build/
+
+# CocoaPods
+ios/Pods/
+
+# IDEs
+/.idea/
+.vscode/
+*.iml
+
+# VS Code settings
+.history/
+
+# Testing
+.coverage
+coverage/
+
+# Dependency folders
+.pub-cache/
+venv/
+node_modules/
+
+# Sensitive
+.env
+*.key
+secrets.yaml
+
+# Misc
+*.class
+*.jar
+*.war
+*.ear
