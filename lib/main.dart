@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:knowing_ai/ai_screen.dart';
+import 'package:knowing_ai/prediction_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -7,6 +7,15 @@ void main() {
     MaterialApp(
       home: PredictionScreen(),
       theme: ThemeData(
+        scaffoldBackgroundColor: Colors.grey[700],
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.grey[800],
+          titleTextStyle: TextStyle(
+            color: Colors.white,
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
         primarySwatch: Colors.blue,
         useMaterial3: true,
         visualDensity: VisualDensity.adaptivePlatformDensity,
