@@ -7,9 +7,9 @@ void main() {
     MaterialApp(
       home: PredictionScreen(),
       theme: ThemeData(
-        scaffoldBackgroundColor: Colors.grey[700],
+        scaffoldBackgroundColor: Colors.grey[900],
         appBarTheme: AppBarTheme(
-          backgroundColor: Colors.grey[800],
+          backgroundColor: Colors.grey[900],
           titleTextStyle: TextStyle(
             color: Colors.white,
             fontSize: 20,
