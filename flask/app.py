@@ -137,9 +137,7 @@ def predict():
 if __name__ == "__main__":
     # Load model before starting server
     if load_model():
-        print("\n" + "="*60)
         print("Starting Flask server...")
-        print("="*60)
         app.run(host="0.0.0.0", port=5001, debug=True)
     else:
         print("Failed to load model. Exiting.")

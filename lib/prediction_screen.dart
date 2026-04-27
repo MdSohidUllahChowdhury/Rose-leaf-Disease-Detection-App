@@ -1,9 +1,12 @@
 // ignore_for_file: avoid_print, library_private_types_in_public_api
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'dart:io';
+
+import 'package:rose_leaf_ai/drawer/drawer.dart';
 
 class PredictionScreen extends StatefulWidget {
   const PredictionScreen({super.key});
@@ -22,7 +25,7 @@ class _PredictionScreenState extends State<PredictionScreen> {
   final ImagePicker _picker = ImagePicker();
 
   // IP and Port
-  final String _apiUrl = 'http://192.168.0.213:5001/predict';
+  final String _apiUrl = 'http://192.168.0.214:5001/predict';
 
   Future<void> _pickAndPredict(ImageSource source) async {
     final picked = await _picker.pickImage(
@@ -99,14 +102,22 @@ class _PredictionScreenState extends State<PredictionScreen> {
     }
   }
 
+  final GlobalKey<ScaffoldState> _scaffoldkey = GlobalKey();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: MyDrawer(),
+      key: _scaffoldkey,
       appBar: AppBar(
+        leading: IconButton(
+          onPressed: () => _scaffoldkey.currentState?.openDrawer(),
+          icon: FaIcon(FontAwesomeIcons.leaf, color: Colors.green, size: 30),
+        ),
+        titleSpacing: 20,
         title: ListTile(
           contentPadding: EdgeInsets.zero,
           title: const Text(
-            'Knowing AI',
+            'Rose Leaf AI',
             style: TextStyle(
               letterSpacing: 1.2,
               fontSize: 20,
@@ -115,11 +126,11 @@ class _PredictionScreenState extends State<PredictionScreen> {
             ),
           ),
           subtitle: Text(
-            'Detection App (YOLOv8 Model)',
+            'Detection App (YOLOv10 Model)',
             style: TextStyle(
               fontSize: 13,
               letterSpacing: 1.2,
-              color: Colors.yellowAccent[400],
+              color: Colors.yellowAccent[100],
               fontWeight: FontWeight.w600,
               fontFamily: 'Roboto',
             ),
@@ -131,7 +142,6 @@ class _PredictionScreenState extends State<PredictionScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-
             //** Image preview
             Container(
               height: MediaQuery.of(context).size.height * 0.30,
@@ -162,7 +172,7 @@ class _PredictionScreenState extends State<PredictionScreen> {
                   child: ElevatedButton.icon(
                     style: ButtonStyle(
                       backgroundColor: WidgetStateProperty.all(
-                        _isLoading ? Colors.grey : Colors.black,
+                        _isLoading ? Colors.grey : Colors.blueGrey.shade700,
                       ),
                       foregroundColor: WidgetStateProperty.all(
                         _isLoading ? Colors.white70 : Colors.white,
