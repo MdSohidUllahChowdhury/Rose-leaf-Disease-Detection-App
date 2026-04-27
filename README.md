@@ -6,19 +6,19 @@ Real-Time Phytopathology Detection via Deep Learning
 
 ---
 
-  ![image alt](https://github.com/MdSohidUllahChowdhury/Rose-leaf-Disease-Detection-App/bolb/main/lib/assets/app_screens.png)
+  ![image alt](https://github.com/MdSohidUllahChowdhury/Rose-leaf-Disease-Detection-App/blob/main/lib/assets/app_screens.png)
 
 ---
 
 ## 🔵 System Architecture & Tech Stack
 
-Frontend (Mobile): Built with Flutter. It utilizes the camera and image_picker plugins for real-time streaming and high-resolution captures, ensuring a 60 FPS UI experience across both iOS and Android.
+- **Frontend (Mobile):** Built with Flutter. It utilizes the camera and image_picker plugins for real-time streaming and high-resolution captures, ensuring a 60 FPS UI experience across both iOS and Android.
 
-Backend (Inference Engine): A Flask (Python) REST API. Flask acts as the orchestration layer, receiving image buffers, preprocessing them, and passing them to the model.
+- **Backend (Inference Engine):** A **Flask(Python)** REST API. Flask acts as the orchestration layer, receiving image buffers, preprocessing them, and passing them to the model.
 
-Deep Learning Model: YOLOv10 (You Only Look Once). Chosen for its NMS-free (Non-Maximum Suppression) training, which significantly reduces latency and improves accuracy in detecting small-scale disease spots (like early-stage rust or black spot).
+- **Deep Learning Model:** YOLOv10 (You Only Look Once). Chosen for its NMS-free (Non-Maximum Suppression) training, which significantly reduces latency and improves accuracy in detecting small-scale disease spots (like early-stage rust or black spot).
 
-Data Communication: Secure POST requests with multipart/form-data for image transmission, returning JSON payloads containing bounding box coordinates and confidence scores.
+- **Data Communication:** Secure POST requests with multipart/form-data for image transmission, returning JSON payloads containing bounding box coordinates and confidence scores.
 
 ---
 
